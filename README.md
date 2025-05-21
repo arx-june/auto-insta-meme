@@ -36,13 +36,26 @@ Every external call is wrapped in:
 This ensures end-to-end stability and clear error reporting.
 
 ---
+## 📸 Screenshots
+1. **Telegram Notification**  
+   ![Telegram QC](assets/Telegram.png)
 
+  ---
+2. **Terminal Log**  
+   ![Terminal Log](assets/Output.png)
+
+   ---
+3. **Instagram Post**  
+   ![Instagram meme post](assets/Meme.png)
+
+---
 ## ⚙️ Quickstart
 
 1. **Clone** the repo  
    ```bash
    git clone https://github.com/your-username/auto-insta-meme.git
-   cd auto-insta-meme```
+   cd auto-insta-meme
+   ```
 
 2. **Install** the Dependencies
 ```bash
@@ -85,4 +98,5 @@ requirements.txt
 ```
 ---
 This setup blends beginner-friendly instructions with critical technical terminology—so you understand both what happens and how it works under the hood. Feel free to fork, extend, or integrate additional modules (e.g., scheduler, analytics) as you scale your meme-posting operation.
+
 ---
