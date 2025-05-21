@@ -45,3 +45,44 @@ This ensures end-to-end stability and clear error reporting.
    cd auto-insta-meme```
 
 2. **Install** the Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+3. **Configure** your credentials in src/config.py (or use .env + python-dotenv):
+```bash
+IG_USERNAME        = "your_instagram_username"
+IG_PASSWORD        = "your_instagram_password"
+GOOGLE_API_KEY     = "your_google_api_key"
+CSE_ID             = "your_cse_engine_id"
+GEMINI_API_KEY     = "your_gemini_api_key"
+TELEGRAM_BOT_TOKEN = "your_telegram_bot_token"
+TELEGRAM_CHAT_ID   = "your_telegram_chat_id"
+DEBUG_MODE         = True  # Toggle verbose logging
+```
+
+4. **Run** the bot:
+```bash
+python src/bot.py
+```
+
+You’ll see logs for each step and get a Telegram message summarizing success or failure—your built-in Quality Control system.
+
+---
+
+## 📂 Project Structure
+```bash
+src/
+├── bot.py              # Entry point & orchestration
+├── config.py           # API keys & constants
+├── google_search.py    # Meme discovery & download logic
+├── gemini_client.py    # Upload & caption via LLM
+├── ig_client.py        # Instagram session management & upload
+└── notifier.py         # Telegram notifications (Quality Control)
+README.md
+requirements.txt
+.env
+```
+---
+This setup blends beginner-friendly instructions with critical technical terminology—so you understand both what happens and how it works under the hood. Feel free to fork, extend, or integrate additional modules (e.g., scheduler, analytics) as you scale your meme-posting operation.
+---
