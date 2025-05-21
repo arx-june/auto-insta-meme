@@ -1,0 +1,5 @@
+google-generativeai
+instagrapi
+google_images_search
+requests
+dotenv
