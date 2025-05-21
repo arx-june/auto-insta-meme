@@ -1,5 +1,9 @@
-google-generativeai
-instagrapi
-google_images_search
-requests
-dotenv
+instagrapi==1.18.6
+python-dotenv==1.0.1
+google-generativeai==0.3.2
+google-api-python-client==2.126.0
+google-auth==2.29.0
+google-auth-oauthlib==1.2.0
+google_images_search==1.4.6
+requests==2.31.0
+urllib3==2.2.1
