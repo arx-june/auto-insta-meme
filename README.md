@@ -41,7 +41,7 @@ This ensures end-to-end stability and clear error reporting.
    ![Telegram QC](assets/Telegram.png)
 
   ---
-2. **Terminal Log**  
+2. **Terminal Log**  (Changed for better debugging)
    ![Terminal Log](assets/Output.png)
 
    ---
